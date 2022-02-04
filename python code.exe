@@ -9,7 +9,7 @@ root.title('ProjectGurukul Roll Dice')
 label = tkinter.Label(root, text='', font=('Times new roman', 260))
 
 #label to introduce
-label2 = tkinter.Label(root, text='Rolling dice game by radwan', font=('Helvetica',10))
+label2 = tkinter.Label(root, text='Rolling dice game by radwan', font=('Times new roman',10))
 label2.place(x=200,y=400)
 
 def roll_dice():
@@ -21,19 +21,19 @@ def roll_dice():
         label3=tkinter.Label(root,text='You rolled a one! Click roll dice to roll again.',font=('Helvetica',10))
         label3.place(x=200,y=450)
     elif(result=='\u2681'):
-        label3=tkinter.Label(root,text='You rolled a two! Click roll dice to roll again.',font=('Helvetica',10))
+        label3=tkinter.Label(root,text='You rolled a two! Click roll dice to roll again.',font=('Times new roman',10))
         label3.place(x=200,y=450)
     elif(result=='\u2682'):
-        label3=tkinter.Label(root,text='You rolled a three! Click roll dice to roll again.',font=('Helvetica',10))
+        label3=tkinter.Label(root,text='You rolled a three! Click roll dice to roll again.',font=('Times new roman',10))
         label3.place(x=200,y=450)
     elif(result=='\u2683'):
-        label3=tkinter.Label(root,text='You rolled a four! Click roll dice to roll again.',font=('Helvetica',10))
+        label3=tkinter.Label(root,text='You rolled a four! Click roll dice to roll again.',font=('Times new roman',10))
         label3.place(x=200,y=450)
     elif(result=='\u2684'):
-        label3=tkinter.Label(root,text='You rolled a five! Click roll dice to roll again.',font=('Helvetica',10))
+        label3=tkinter.Label(root,text='You rolled a five! Click roll dice to roll again.',font=('Times new roman',10))
         label3.place(x=200,y=450)
     elif(result=='\u2685'):
-        label3=tkinter.Label(root,text='You rolled a six! Click roll dice to roll again.',font=('Helvetica',10))
+        label3=tkinter.Label(root,text='You rolled a six! Click roll dice to roll again.',font=('Times new roman',10))
         label3.place(x=200,y=450)
 
 button = tkinter.Button(root, text='roll dice', foreground='red', command=roll_dice)
